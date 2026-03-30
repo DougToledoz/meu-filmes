@@ -98,3 +98,9 @@ button:hover{
     background-color: white;
     color: #e50914
 }
+.cartao-filme p{
+    color: #b3b3b3;
+    font-size: 0.9rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
