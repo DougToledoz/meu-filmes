@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site de Filmes</title>
+</head>
+<body>
+    <header>
+        <h1>🍿 Site de Filmes 🍿</h1>
+        <div class="busca">
+            <input type="text" id="input-filme" placeholder="Buscar filme (ex: Batman).">
+            <button id="btn-buscar">Buscar</button>
+        </div>
+    </header>
+
+    <main id="grade-filmes" class="grade"></main>
+
+    <div id="modal-trailer" class="modal">
+        <div class="conteudo-modal">
+            <span id="fechar-modal">&times;</span>
+            <iframe id="player-video" width="100%" height="450" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
